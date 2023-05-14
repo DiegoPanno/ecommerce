@@ -1,4 +1,7 @@
-.titulo-principal {
+h1 {
     text-align: center;
-    color: #615f5f;
+    color: #090909;
+    font-size: 40px;
+    border: none;
+    background: white;
 }

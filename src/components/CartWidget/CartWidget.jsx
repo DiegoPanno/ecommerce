@@ -1,14 +1,16 @@
-import './CartWidget.css'
+import "./CartWidget.css";
 
 
 const CartWidget = () => {
-    const imgCarrito = "https://cdn-icons-png.flaticon.com/512/107/107831.png";
+  const imgCarrito = "https://cdn-icons-png.flaticon.com/512/107/107831.png";
   return (
-    <div>
-        <img className='imgCarrito' src={imgCarrito}  alt="Carrito" />
-        <strong className='numerito'> 1 </strong>
+    <div className="img-contenedor">
+      <img className="imgCarrito" src={imgCarrito} alt="Carrito" />
+      
+        <h3>1</h3>
+      
     </div>
-  )
-}
+  );
+};
 
-export default CartWidget
+export default CartWidget;

@@ -1,11 +1,13 @@
+.img-contenedor {
+    width: 30px;
+    display: flex;
+}
+
 .imgCarrito {
-    height: 1em;
+    height: 1.5em;
+    cursor: pointer;
     
 }
 
-.numerito {
-    margin-left: 5px;
-    border-radius: 50%;
-    background: white;
-    padding: 1px;
-}
+
+
