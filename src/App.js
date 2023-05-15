@@ -4,9 +4,10 @@ import Carrusel from "./components/Carrusel/Carrusel";
 import ItemDetailConteiner from "./components/ItemDetailConteiner/ItemDetailConteiner";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+
 function App() {
   return (
-    <>
+    <div className="App">
       <BrowserRouter>
         <NavBar />
         <Carrusel
@@ -23,8 +24,8 @@ function App() {
           <Route path="/item/:idItem" element={<ItemDetailConteiner />} />
         </Routes>
       </BrowserRouter>
-    </>
-  );
+    </div>
+  )
 }
 
 export default App;
