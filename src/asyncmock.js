@@ -1,25 +1,22 @@
 
 
 const productos = [
-  {
-    id: "Cerveza clasic",
-    titulo: "Cerveza clasic",
-    imagen: '../img/imgclasic.jpg',  
-    idCat: "bebidas",    
-    precio: 500
-  },
+  
   {
     id: "Cerveza Caramel",
     titulo: "Cerveza Caramel",
     imagen: "../img/imgcaramel.jpg",
     idCat: "bebidas",
+    stock: 7,
     precio: 500
+    
   },
   {
     id: "Cerveza Honey",
     titulo: "Cerveza Honey",
     imagen: "../img/imghoney.jpg",   
     idCat: "bebidas",    
+    stock: 4,
     precio: 500
   },
   {
@@ -27,6 +24,7 @@ const productos = [
     titulo: "Cerveza linz",
     imagen: "../img/imglinz.jpg",
     idCat: "bebidas",
+    stock: 10,
     precio: 620
   },
   {
@@ -34,6 +32,7 @@ const productos = [
     titulo: "Cerveza Lester",
     imagen: "../img/imglester.jpg",
     idCat: "bebidas",
+    stock: 66,
     precio: 600
   },
   {
@@ -41,6 +40,7 @@ const productos = [
     titulo: "Vino Malbec",
     imagen: "../img/imgvinoananias.jpg",
     idCat: "bebidas",
+    stock: 10,
     precio: 1250
   },
   {
@@ -48,6 +48,7 @@ const productos = [
     titulo: 'Alfajor de dulce de leche',
     imagen: '../img/imgcerroazulddl.jpg',
     idCat: 'despensa',
+    stock: 5,
     precio: 250
 },
 {
@@ -55,6 +56,7 @@ const productos = [
     titulo: 'Chips de remolacha',
     imagen: '../img/imgremolacha.jpg',
     idCat: 'despensa',
+    stock: 9,
     precio: 310
 },
 {
@@ -62,6 +64,7 @@ const productos = [
     titulo: 'Chip de Zanahoria',
     imagen: '../img/imgzanahoria.jpg',
     idCat: 'despensa',
+    stock: 12,
     precio: 310
 },
 {
@@ -69,6 +72,7 @@ const productos = [
     titulo: 'Harina de arroz Abucel',
     imagen: '../img/imgabucel.jpg',
     idCat: 'despensa',
+    stock: 10,
     precio: 880
 },
 {
@@ -76,6 +80,7 @@ const productos = [
     titulo: 'Aceite de coco neutro',
     imagen: '../img/imgaceitecoco.jpg',
     idCat: 'despensa',
+    stock: 34,
     precio: 1350
 },
 {
@@ -83,6 +88,7 @@ const productos = [
   titulo: 'Leche de coco',
   imagen: '../img/imglechedecoco.jpg',
   idCat: 'heladera',
+  stock: 2,
   precio: 660
 },
 {
@@ -90,6 +96,7 @@ const productos = [
   titulo: 'Leche Amande',
   imagen: '../img/imgamadde.jpg',
   idCat: 'heladera',
+  stock: 6,
   precio: 700
 
 },
@@ -98,6 +105,7 @@ const productos = [
   titulo: 'Leche de mani con chocolate',
   imagen: '../img/imglechemanichoco.jpg',
   idCat: 'heladera',
+  stock: 5,
   precio: 588
 },
 {
@@ -105,6 +113,7 @@ const productos = [
   titulo: 'Leche de mani',
   imagen: '../img/imglechemani.jpg',
   idCat: 'heladera',
+  stock: 19,
   precio: 580
 },
 {
@@ -112,6 +121,7 @@ const productos = [
   titulo: 'Leche Clásica',
   imagen: '../img/imglechecomun.jpg',
   idCat: 'heladera',
+  stock: 10,
   precio: 249
 }
 ];

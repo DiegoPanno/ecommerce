@@ -38,17 +38,7 @@
     
 }
 
-.btnAgregar {
-  border: none;
-  border-radius: 25px;
-  background: aqua;
-  font-size: 15px;
-}
 
-.btnAgregar:hover {
-  transform: translateY(1px);
-  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.5);
-}
 
 .btnInfo {
   text-decoration: none;

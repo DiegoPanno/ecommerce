@@ -1,15 +1,18 @@
 import "./CartWidget.css";
-
+import { useContext } from "react";
+import { CarritoContext } from "../Contex/CarritoContext";
+import { Link } from "react-router-dom";
 
 const CartWidget = () => {
+  const { carrito, totalCantidad } = useContext(CarritoContext);
+
   const imgCarrito = "https://cdn-icons-png.flaticon.com/512/107/107831.png";
   return (
-    <div className="img-contenedor">
+    <Link to="/cart" className="img-contenedor">
       <img className="imgCarrito" src={imgCarrito} alt="Carrito" />
-      
-        <h3>1</h3>
-      
-    </div>
+
+      {totalCantidad > 0 && <span> {totalCantidad} </span>}
+    </Link>
   );
 };
 

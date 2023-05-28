@@ -9,7 +9,7 @@ const Carrusel = (props) => {
           <div className="carousel-item">
             <img src={require(`./imagen/${props.imagen2}.jpg`)} alt= {`(${props.nombre2})`} />
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <img src={require(`./imagen/${props.imagen3}.jpg`)} alt= {`(${props.nombre3})`} />
           </div>
         </div>
