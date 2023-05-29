@@ -1,0 +1,39 @@
+.contenedorFooterLink {
+    height: 200px;
+    background-color: #3b3a3a;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+   
+   
+}
+
+.navFooter {
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500px;
+    display: center;
+    
+}
+
+.contenedorContacto {
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500px;
+    
+    
+    
+}
+
+.contenedorFooter {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
