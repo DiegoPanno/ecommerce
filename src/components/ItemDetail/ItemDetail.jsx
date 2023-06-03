@@ -2,7 +2,7 @@ import Contador from "../Contador/Contador";
 import "./ItemDetail.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { CarritoContext } from '../Contex/CarritoContext' 
+import { CarritoContext } from "../../Contex/CarritoContext";
 import { useContext } from "react";
 
 

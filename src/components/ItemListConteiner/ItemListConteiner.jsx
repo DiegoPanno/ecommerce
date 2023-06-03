@@ -14,7 +14,7 @@ const ItemListConteiner = (props) => {
   useEffect(() => {
     const misProductos = idCategoria
       ? query(collection(db, "inventario"), where("idCat", "==", idCategoria))
-      : collection(db, "inventario");
+      : collection(db, "inventarion");
 
       getDocs(misProductos)
         .then(res => {

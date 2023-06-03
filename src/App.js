@@ -2,7 +2,7 @@ import NavBar from "./components/NavBar/NavBar";
 import ItemListConteiner from "./components/ItemListConteiner/ItemListConteiner";
 import ItemDetailConteiner from "./components/ItemDetailConteiner/ItemDetailConteiner";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { CarritoProvider } from "./components/Contex/CarritoContext";
+import { CarritoProvider } from "./Contex/CarritoContext";
 import Cart from "./components/Cart/Cart";
 import Footer from "./components/Footer/Footer";
 import Checkout from "./components/Checkout/Checkout";

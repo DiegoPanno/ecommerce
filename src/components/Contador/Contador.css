@@ -49,12 +49,15 @@
 
 
 .btnAgregar {
-    
+    padding: 5px;
+    color: black;
     border: none;
     border-radius: 25px;
     background: aqua;
     font-size: 15px;
     margin-bottom: 20px;
+    list-style: none;
+    text-decoration: none;
   }
   
   .btnAgregar:hover {
